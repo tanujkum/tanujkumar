@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>clothes</title>
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<style type="text/css">
+
+		.t1
+		{
+			width: 1340px;
+			height: 45px;
+			background: linear-gradient(to right,black,grey,black);
+			margin: 0 auto;
+			color: white;
+			position: fixed;
+			z-index: 1;
+		}
+		.t2:hover
+		{
+			color: green;
+			text-decoration-line: underline;
+		}
+		.t3 > font:hover
+		{
+			color: red;
+			text-decoration-line: underline;
+
+		}
+		nav
+		{
+			/*background-color: lightgrey;*/
+			width:80%;
+			height:30px;
+			display: flex;
+            position: absolute;
+            right: -270px;
+            top: 88px;
+            /*position: fixed;*/
+		}
+		nav ul
+		{
+			list-style-type: none;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-top: -10px;
+		}
+		nav ul li
+		{
+			width:180px;
+			height: 50px;
+			/*display: inline;*/
+			background: linear-gradient(to right,black,grey,black);
+			float:left;
+			background;
+			text-align: center;
+			box-shadow: 15px 15px 10px black;
+	    }
+	    nav ul li a
+	    {
+	    	text-decoration: none;
+	        font-weight:bold; 
+		    color: black;
+	    	line-height: 50px;
+	    	float: left;
+	    	font-family: "arial";
+	    	width:inherit;
+	    	color: white;
+		    text-align: center;
+		    /*height: inherit;*/
+	        z-index: 1;
+	    }
+	    nav>ul>li:hover 
+	    {
+	    	background-color: green;
+	    	color: black;
+	    }
+	     nav ul li i
+	    {
+	        margin-left: 5px;
+	    }
+	    nav>ul>li>ul
+	    {
+	    	margin-left: -40px;
+	    	font-family: arial;
+	    }
+	    nav>ul>li>ul
+	    {
+	    	display: none;
+	    }
+	    nav>ul>li:hover > ul
+	    {
+	    	display: block;
+	    }
+	    nav>ul>li>ul>li:hover
+	    {
+	    	background-color: green;
+	    }
+	    nav>ul>li>ul>li>ul
+	    {
+	    	margin-left: 140px;
+	    }
+	     nav>ul>li>ul>li>ul
+	    {
+	    	display: none;
+	    }
+	    nav>ul>li>ul>li:hover > ul
+	    {
+	    	display: block;
+	    }
+	    nav ul li ul li i
+	    {
+	        float: right;
+	        margin-top: 15px;
+	        margin-right: 10px;
+	    }
+	     nav>ul>li>ul>li>ul>li
+	    {
+	    	display: none;
+	    }
+	     nav>ul>li>ul>li:hover > ul>li
+	    {
+	    	display: block;
+	    }
+	    nav>ul>li>ul>li>ul>li:hover
+	    {
+	    	background-color: green;
+	    }
+	    .bs
+	    {
+	        position: relative;
+	        right: 360px;
+	    }
+	    .t5 div:hover img
+	    {
+	    	transform: scale(1.5,1.5);
+	    	overflow: hidden;
+	    }
+	    .t4
+	    {
+	    	position: relative;
+	    	top: 1200px;
+	    	left: 20px;
+	    	text-shadow: 2px 2px grey;
+	    	font-family: 
+	    }
+	    .t6
+	    {
+           position: relative;
+           top: 1550px;
+           left: 950px;
+           height: 250px;
+           width: 300px;
+           border:1px black solid;
+           background-color: #f2f2f2;
+           border-radius: 10%;
+	    }
+	    .t6 .t7
+	    {
+	    	width: 200px;
+	    	height: 150px;
+	    	margin: 10px;
+	    }
+	    .t6 .t7 h3
+	    {
+	    	font-size: 25px;
+	    	font-weight: bold;
+	    	margin-left: 60px;
+	    	margin-top: 20px;
+	    	font-family: algerian;
+	    	color: red;
+	    }
+	    .t6 .t7 p
+	    {
+	    	font-size: 18px;
+	    	margin-top: 10px;
+	    	margin-left: 5px;
+	    	text-align: center;
+	    	font-family: forte;
+	    }
+	    
+	    .t6 img
+	    {
+	    	margin-top: -70px;
+	    	margin-left: 190px;
+	    	z-index:1;
+	    	border-radius: 60%;
+	    }
+	    .t8
+	    {
+	       position: relative;
+           top: 1600px;
+           left: 950px;
+           height: 250px;
+           width: 300px;
+           border:1px black solid;
+           background-color: #f2f2f2;
+           border-radius: 8%;
+
+	    }
+	    .t8 .t9
+	    {
+	    	width: 200px;
+	    	height: 150px;
+	    	margin: 10px;
+	    }
+	    .t8 .t9 h3
+	    {
+	    	font-size: 25px;
+	    	font-weight: bold;
+	    	margin-left: 60px;
+	    	margin-top: 20px;
+	    	font-family: algerian;
+	    	color: red;
+	    }
+	    .t8 .t9 p
+	    {
+	    	font-size: 18px;
+	    	margin-top:10px;
+	    	margin-left: 5px;
+	    	text-align: center;
+	    	font-family: forte;
+	    }
+	    
+	    .t8 img
+	    {
+	    	margin-top: -70px;
+	    	margin-left: 190px;
+	    	z-index:1;
+	    	border-radius: 70%;
+	    }
+
+		
+		.slider
+		{
+			overflow: hidden;
+			height: 90%;
+			position: absolute;
+			top: 125px;
+			z-index: -1;
+		}
+	    .slider figure img
+	    {
+	    	float: left;
+	    	width: 20%;
+	    	height: 600px;
+	    }
+	    .slider figure
+	    {
+	    	position: relative;
+	    	width: 500%;
+	    	margin: 0px;
+	    	left: 0px;
+	    	animation: 15s tanuj infinite;
+	    	/*animation-timing-function: ease-in;*/
+	    }
+	    @keyframes tanuj
+	    {
+	    	0%{left: 0%;}
+	    	20%{left: 0%;}
+	    	25%{left: -100%;}
+	    	45%{left: -100%;}
+	    	50%{left: -200%;}
+	    	70%{left: -200%;}
+	    	75%{left: -300%;}
+	    	95%{left: -300%;}
+	    	100%{left: -400%;}
+	    	
+	    }
+	    .navigation
+	    {
+	    	position: absolute;
+	    	top:430px;
+	    	left: 550px;
+	    	display: flex;
+
+	    }
+	    .bar
+	    {
+	    	width: 50px;
+	    	height: 10px;
+	    	border:2px white solid;
+	    	margin: 10px;
+	    }
+	    .bar:hover
+	    {
+	    	background-color: white;
+	    }
+	    input[name="r"]
+	    {
+	    	visibility: hidden;
+	    }
+	    .fa-chevron-left:hover
+	    {
+	    	background-color: rgba(0,0,0,0.8);
+	    }
+	    .fa-chevron-right:hover
+	    {
+	    	background-color: rgba(0,0,0,0.8);
+	    }
+		
+	</style>
+</head>
+<body >
+	<div class="t1">
+		<font style="line-height: 40px;font-size: 20px;font-family: monospace;font-weight: bold;position: absolute;left: 100px;"><i class="fa fa-map-marker-alt" aria-hidden="true"></i>&nbsp;Best Online Products</font>
+
+		<input type="text" name="ss" placeholder=" Search" style="position: absolute;left: 730px; top: 5px;border-radius: 40px;">
+		    <i class="fa fa-search" style="font-size: 22px;position: absolute;left: 910px;top: 10px;">
+		    </i></button>
+		    <i class="fa fa-gift" aria-hidden="true" style="font-size: 25px;position: absolute;left: 980px;top: 8px;">&nbsp;Gifts</i>
+		    <i class="fa fa-cart-arrow-down" aria-hidden="true" style="font-size: 25px;position: absolute;left: 1100px;top: 9px;"></i>
+		    <font style="font-size: 20px;position: absolute;left: 1180px;top: 5px;font-family: sans-serif;list-style-type: none;" class="t2"><a href="file2.html" target="blank;">Login</a></font>
+	</div>
+	
+	<div class="t3"><img src="F:\tanuj html ducat\project5\logo.png" style="float:             left;position: absolute;left: 80px;top: 60px;">
+					<b><font style="float: left;position: absolute;left: 330px;top: 70px;font-size: 25px; font-family: bahnscrift;text-shadow: 3px 3px 3px grey;"><a href="file3.html" target="blank;">Men</a></font>
+					<font style="float: left;position: absolute;left: 405px;top: 70px;font-size: 25px; font-family: bahnscrift;text-shadow: 3px 3px 3px grey;"><a href="file5.html" target="blank;">Women</a></font>
+					<font style="float: left;position: absolute;left: 520px;top: 70px;font-size: 25px; font-family:bahnscrift;text-shadow: 3px 3px 3px grey;"><a href="file6.html" target="blank;">Kids</a></font></b>
+					
+					
+
+	</div>
+	<nav>
+		<ul>
+			<li style="border-bottom-left-radius: 10px;border-top-left-radius: 10px;"><a href='#'>Jewellery<i class="fa fa-angle-down" aria-hidden="true" 
+              ></i></a>
+              		<ul>
+              			<li><a href='#'>Artifical Jewellery<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+              			<li><a href='#'>Silver Jewellery<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+              			<li><a href='#'>Precious Jewellery<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+              			<li><a href='#'>Coins & Bars<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+              		</ul>
+          	</li>
+		    <li><a href='#'>Watches<i class="fa fa-angle-down" aria-hidden="true" 
+              ></i></a>
+                    <ul>
+              			<li><a href='#'>Fastrack<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              				<ul><li style="width: 200px;"><a href='#'>38024PP25 Minimalists</a></li>
+		              			<li style="width: 200px;"><a href='#'>38044PP02 Trendies</a></li>
+		              			<li style="width: 200px;"><a href='#'>3166KM01 All Nights</a></li>
+		              			<li style="width: 200px;"><a href='#'>NG3039SM03 Upgrades</a></li>
+		              		</ul>
+              			</li>
+              			<li><a href='#'>Casio<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              				<ul><li style="width: 200px;"><a href='#'>MTP-1314D-2AVDF</a></li>
+		              			<li style="width: 200px;"><a href='#'>A59 Analog Watch</a></li>
+		              			<li style="width: 200px;"><a href='#'>A1361 Men Analog Watch</a></li>
+		              			<li style="width: 200px;"><a href='#'>G662 G-Shock ( GG-10</a></li>
+		              			<li style="width: 200px;"><a href='#'>O46-146 Women Watch</a></li>
+		              		</ul>
+              			</li>
+              			<li><a href='#'>Titan<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              				<ul><li style="width: 200px;"><a href='#'></a></li>
+		              			<li style="width: 200px;"><a href='#'></a></li>
+		              			<li style="width: 200px;"><a href='#'></a></li>
+		              			<li style="width: 200px;"><a href='#'></a></li>
+		              		</ul>
+              			</li>
+              			<li><a href='#'>Sonata<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              				<ul><li style="width: 200px;"><a href='#'></a></li>
+		              			<li style="width: 200px;"><a href='#'></a></li>
+		              			<li style="width: 200px;"><a href='#'></a></li>
+		              			<li style="width: 200px;"><a href='#'></a></li>
+		              		</ul>
+              			</li>
+              			<li><a href='#'>Puma<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              				<ul><li style="width: 200px;"><a href='#'></a></li>
+		              			<li style="width: 200px;"><a href='#'></a></li>
+		              			<li style="width: 200px;"><a href='#'></a></li>
+		              			<li style="width: 200px;"><a href='#'></a></li>
+		              		</ul>
+              			</li>
+              			<li><a href='#'>Fossil<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              				<ul><li style="width: 200px;"><a href='#'></a></li>
+		              			<li style="width: 200px;"><a href='#'></a></li>
+		              			<li style="width: 200px;"><a href='#'></a></li>
+		              			<li style="width: 200px;"><a href='#'></a></li>
+		              		</ul>
+              			</li>
+              			<li><a href='#'>Daniel Klein<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+              		</ul>
+          	</li>
+			<li><a href='#'>Accesories<i class="fa fa-angle-down" aria-hidden="true" 
+              ></i></a>
+                    <ul>
+              			<li><a href='#'>Wallets<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+              			<li><a href='#'>Belts<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+              			<li><a href='#'>SunGlasses<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+              			<li><a href='#'>Frames<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+              			<li><a href='#'>HandBags<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+              			<li><a href='#'>Luggage<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+              		</ul>
+            </li>
+			<li style="border-bottom-right-radius: 10px;border-top-right-radius: 10px;"><a href='#'>Shoes<i class="fa fa-angle-down" aria-hidden="true" 
+              ></i></a>
+                    <ul>
+              			<li><a href='#'>Nike<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              				<ul class="bs">
+              					<li><a href='#'>Sports Shoes</a></li>
+		              			<li><a href='#'>Casual Shoes</a></li>
+		              			<li><a href='#'>Formal Shoes</a></li>
+		              			<li><a href='#'>Sneakers</a></li>
+		              			<li><a href='#'>Belly</a></li>
+		              			<li><a href='#'>Sandals</a></li>
+              				</ul>
+              			</li>
+              			<li><a href='#'>Addidas<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              				<ul class="bs">
+              					<li><a href='#'>Sports Shoes</a></li>
+		              			<li><a href='#'>Casual Shoes</a></li>
+		              			<li><a href='#'>Formal Shoes</a></li>
+		              			<li><a href='#'>Sneakers</a></li>
+		              			<li><a href='#'>Belly</a></li>
+		              			<li><a href='#'>Sandals</a></li>
+              				</ul>
+              			</li>
+              			<li><a href='#'>Puma<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              				<ul class="bs">
+              					<li><a href='#'>Sports Shoes</a></li>
+		              			<li><a href='#'>Casual Shoes</a></li>
+		              			<li><a href='#'>Formal Shoes</a></li>
+		              			<li><a href='#'>Sneakers</a></li>
+		              			<li><a href='#'>Belly</a></li>
+		              			<li><a href='#'>Sandals</a></li>
+              				</ul>
+              			</li>
+              			<li><a href='#'>Bata<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              				<ul class="bs">
+              					<li><a href='#'>Sports Shoes</a></li>
+		              			<li><a href='#'>Casual Shoes</a></li>
+		              			<li><a href='#'>Formal Shoes</a></li>
+		              			<li><a href='#'>Sneakers</a></li>
+		              			<li><a href='#'>Belly</a></li>
+		              			<li><a href='#'>Sandals</a></li>
+              				</ul>
+              			</li>
+              			<li><a href='#'>Reebok<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              				<ul class="bs">
+              					<li><a href='#'>Sports Shoes</a></li>
+		              			<li><a href='#'>Casual Shoes</a></li>
+		              			<li><a href='#'>Formal Shoes</a></li>
+		              			<li><a href='#'>Sneakers</a></li>
+		              			<li><a href='#'>Belly</a></li>
+		              			<li><a href='#'>Sandals</a></li>
+              				</ul>
+              			</li>
+              			<li><a href='#'>Burberry<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              				<ul class="bs">
+              					<li><a href='#'>Sports Shoes</a></li>
+		              			<li><a href='#'>Casual Shoes</a></li>
+		              			<li><a href='#'>Formal Shoes</a></li>
+		              			<li><a href='#'>Sneakers</a></li>
+		              			<li><a href='#'>Belly</a></li>
+		              			<li><a href='#'>Sandals</a></li>
+              				</ul>
+              			</li>
+              			<li><a href='#'>Fila<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              				<ul class="bs">
+              					<li><a href='#'>Sports Shoes</a></li>
+		              			<li><a href='#'>Casual Shoes</a></li>
+		              			<li><a href='#'>Formal Shoes</a></li>
+		              			<li><a href='#'>Sneakers</a></li>
+		              			<li><a href='#'>Belly</a></li>
+		              			<li><a href='#'>Sandals</a></li>
+              				</ul>
+              			</li>
+              			<li><a href='#'>Sparx<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              		</ul>
+            </li>
+		</ul>
+		
+	</nav>
+	
+	<div class="slider">
+		<input type="radio" name="r" id="r1" checked>
+		<input type="radio" name="r" id="r2">
+		<input type="radio" name="r" id="r3">
+		<input type="radio" name="r" id="r4">
+		<figure>
+			<img src="F:\tanuj html ducat\project5\img1.png">
+			<img src="F:\tanuj html ducat\project5\img2.png">
+			<img src="F:\tanuj html ducat\project5\img3.png">
+			<img src="F:\tanuj html ducat\project5\img4.jpg">
+			<img src="F:\tanuj html ducat\project5\img1.png">
+		</figure>
+		<div class="navigation">
+			<div for="r1" class="bar"></div>
+			<div for="r2" class="bar"></div>
+			<div for="r3" class="bar"></div>
+			<div for="r4" class="bar"></div>
+			
+		</div>
+		<i class="fa fa-chevron-left" aria-hidden="true"></i>
+		<i class="fa fa-chevron-right" aria-hidden="true"></i>
+	</div>
+	<i class="fa fa-chevron-left" aria-hidden="true" style="position: absolute;top: 350px;left: 20px;font-size: 50px;color: white;padding: 5px 5px;"></i>
+	<i class="fa fa-chevron-right" aria-hidden="true" style="position: absolute;top: 350px;right: 20px;font-size: 50px;color: white;padding: 5px 5px;"></i>
+	
+
+
+	<div style="width: 75%;height: 640px;position: absolute;top: 700px;left: 190px;">
+		<div style="height:400px;width:33.3%;float: left;">
+			<br><br>
+			<font style="margin-left: 50px;font-size: 25px;font-family: elephant,serif;text-shadow: 3px 3px 3px grey;">New Arrivals</font>
+			<br><br>
+			<img src="F:\tanuj html ducat\project5\watch1.png" style="margin-left: 50px;">
+			<font style="position: relative;top: -30px;left: 10px;font-family: forte">Fastrack Mens Watch</font>
+		    <div style="position: relative;top: -70px;left: 145px;">
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt' style="color: red"></i></div>
+			<div style="position: relative;top: -70px;left: 145px;"><i class='fas fa-dollar-sign'></i><font style="font-size: 20px;"><strike>499.99</strike></font>
+			<i class='fas fa-dollar-sign' style='font-size:25px;color:red'></i><font style="font-size: 25px;">399</font></div>
+			
+			<img src="F:\tanuj html ducat\project5\sunglass1.png" style="margin-left: 30px;">
+			<font style="position: relative;top: -30px;left: 2px;font-family: forte;text-align: right;">UV Sunglass</font>
+		    <div style="position: relative;top: -70px;left: 160px;">
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt' style="color: red"></i></div>
+			<div style="position: relative;top: -70px;left: 160px;"><i class='fas fa-dollar-sign'></i><font style="font-size: 20px;"><strike>1299.99</strike></font>
+			<i class='fas fa-dollar-sign' style='font-size:25px;color:red'></i><font style="font-size: 25px;">899</font></div>
+
+			<img src="F:\tanuj html ducat\project5\wallet.png">
+			<font style="position: relative;top: -30px;left: 0px;font-family: forte">Men's Card Holder</font>
+			<div style="position: relative;top: -70px;left: 165px;">
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt' style="color: red"></i></div>
+			<div style="position: relative;top: -70px;left: 160px;"><i class='fas fa-dollar-sign'></i><font style="font-size: 20px;"><strike>999.99</strike></font>
+			<i class='fas fa-dollar-sign' style='font-size:25px;color:red'></i><font style="font-size: 25px;">570.99</font></div>
+
+		</div>
+		<div style="height:650px;width:33.3%;float: left;margin-left: 0px;">
+			<br><br>
+			<font style="margin-left: 50px;font-size: 25px;font-family: elephant,serif;text-shadow: 3px 3px 3px grey;">BestSellers</font><br><br>
+			<img src="F:\tanuj html ducat\project5\shirt.png">
+			<font style="position: relative;top: -40px;left: 0px;font-family: forte">Checkered Men Blue T-Shirt</font>
+		    <div style="position: relative;top: -80px;left: 105px;">
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt' style="color: red"></i></div>
+			<div style="position: relative;top: -80px;left: 100px;"><i class='fas fa-dollar-sign'></i><font style="font-size: 20px;"><strike>1620.99</strike></font>
+			<i class='fas fa-dollar-sign' style='font-size:25px;color:red'></i><font style="font-size: 25px;">1320.99</font></div>
+			<img src="F:\tanuj html ducat\project5\suit.png" style="margin-top: -25px">
+			<font style="position: relative;top: -60px;left: 10px;font-family: forte">Women Straight Kurta </font>
+		    <div style="position: relative;top: -100px;left: 125px;">
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt' style="color: red"></i></div>
+			<div style="position: relative;top: -100px;left: 125px;"><i class='fas fa-dollar-sign'></i><font style="font-size: 20px;"><strike>1620.99</strike></font>
+			<i class='fas fa-dollar-sign' style='font-size:25px;color:red'></i><font style="font-size: 25px;">1320.99</font></div>
+
+			<img src="F:\tanuj html ducat\project5\set.png" style="margin-left: 20px;margin-top: -20px;">
+			<font style="position: relative;top: -50px;left: 10px;font-family: forte">Apara Alloy Jewel Set</font>
+		    <div style="position: relative;top: -100px;left: 135px;">
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt' style="color: red"></i></div>
+			<div style="position: relative;top: -100px;left: 135px;"><i class='fas fa-dollar-sign'></i><font style="font-size: 20px;"><strike>1620.99</strike></font>
+			<i class='fas fa-dollar-sign' style='font-size:25px;color:red'></i><font style="font-size: 25px;">1320.99</font></div>
+
+		</div>
+		<div style="height:400px;width:33.3%;float: left;">
+			<br><br>
+			<font style="margin-left: 60px;font-size: 25px;font-family: elephant,serif;text-shadow: 3px 3px 3px grey;">Featured</font><br><br>
+			<img src="F:\tanuj html ducat\project5\shoes.png">
+			<font style="position: relative;top: -50px;left: 0px;font-family: forte">Casuals For Men</font>
+			<div style="position: relative;top: -80px;left: 195px;">
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt' style="color: red"></i></div>
+			<div style="position: relative;top: -80px;left: 195px;"><i class='fas fa-dollar-sign'></i><font style="font-size: 20px;"><strike>999.99</strike></font>
+			<i class='fas fa-dollar-sign' style='font-size:25px;color:red'></i><font style="font-size: 25px;">570.99</font></div>
+			
+			<img src="F:\tanuj html ducat\project5\shoes1.png">
+			<font style="position: relative;top: -40px;left: 0px;font-family: forte">Bellies For Women</font>
+			<div style="position: relative;top: -80px;left: 175px;">
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt' style="color: red"></i></div>
+			<div style="position: relative;top: -80px;left: 175px;"><i class='fas fa-dollar-sign'></i><font style="font-size: 20px;"><strike>999.99</strike></font>
+			<i class='fas fa-dollar-sign' style='font-size:25px;color:red'></i><font style="font-size: 25px;">570.99</font></div>
+
+			<img src="F:\tanuj html ducat\project5\skirt.png">
+			<font style="position: relative;top: -60px;left: -30px;font-family: forte">Girls Party Dress</font>
+			<div style="position: relative;top: -120px;left: 145px;">
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt'></i>
+			<i class='fas fa-star-half-alt' style="color: red"></i></div>
+			<div style="position: relative;top: -120px;left: 155px;"><i class='fas fa-dollar-sign'></i><font style="font-size: 20px;"><strike>999.99</strike></font>
+			<i class='fas fa-dollar-sign' style='font-size:25px;color:red'></i><font style="font-size: 25px;">570.99</font></div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<i class="fa fa-angle-double-down" aria-hidden="true" style="position: relative;
+	    	top: 1245px;left: 180px;font-size: 24px;"></i>
+	<h1 class="t4">Branded</h1>
+	<div class="t5" style="width: 100%;height: 250px;position: absolute;top: 1370px;left: 10px;">
+		<div style="width: 160px;height: 240px;float: left;overflow: hidden;margin-left: 100px;">
+			<img src="F:\tanuj html ducat\project5\kurta.png" style="transition: all 1s ease;overflow: hidden;">
+			<font style="background-color: rgba(0,0,0,0.3);display: block;overflow: hidden;position: relative;top:-90px; text-align: center;width: 160px;height: 10%;">Kurta</font>
+		</div>
+		
+		<div style="width: 190px;height: 210px; float: left;overflow: hidden;margin-left: 150px;">
+			<br><br><img src="F:\tanuj html ducat\project5\watch2.png" style="transition: all 1s ease;overflow: hidden;">
+			<font style="background-color: rgba(0,0,0,0.3);display: block;overflow: hidden;position: relative;top:-90px;text-align: center;width: 190px;height: 10%;color: white">Watch</font>
+		</div>
+		
+		<div style="width: 205px;height: 250px;float: left;overflow: hidden;margin-left: 150px;">
+		       <img src="F:\tanuj html ducat\project5\bag.png" style="transition: all 1s ease;overflow: hidden;">
+		       <font style="background-color: rgba(0,0,0,0.3);display: block;overflow: hidden;position: relative;top:-90px;text-align: center;width: 205px;height: 10%;color: white">Bags</font>
+		</div>
+		
+	<div style="width: 190px;height: 230px;float: left;background-color: green; overflow: hidden;margin-left: 130px;">
+			<img src="F:\tanuj html ducat\project5\jeans.png" style="margin-left: 0px;transition: all 1s ease;overflow: hidden;">
+			<font style="background-color: rgba(0,0,0,0.3);display: block;overflow: hidden;position: relative;top:-90px;text-align: center;width: 205px;height: 10%;color: white">Jeans</font>
+		</div>
+	</div>
+	<img src="F:\tanuj html ducat\project5\koti2.png" style="position: absolute;top: 1700px;left: 70px;border-radius: 20px ;box-shadow: 10px 10px 20px lightgrey;width: 800px;height: 500px">
+
+    <div class="t6">
+    	<div class="t7"><h3>Blazzers</h3>
+    	<p>Comfort is a very important things nowadays because it is a condition of satisfaction.</p>
+    	<font style="font-family: Elephant;font-size: 20px;background-color:red;border-radius: 5px;margin-left: 50px;">Shop Now!</font>
+    	</div>
+    	<br>
+    	<div><img src="F:\tanuj html ducat\project5\koti1.png"></div>
+ 	</div>
+ 	<div class="t8">
+    	<div class="t9"><h3>Heels</h3>
+    	<p>Comfort is a very important things nowadays because it is a condition of satisfaction.</p>
+    	<font style="font-family: Elephant;font-size: 20px;background-color:red;border-radius: 5px;margin-left: 50px;color: white">Shop Now!</font>
+    	</div>
+    	<br>
+    	<div><img src="F:\tanuj html ducat\project5\heels.png"></div>
+ 	</div>
+ 	<div style="height: 430px;width: 100%;position: absolute;background-color: grey; top: 2300px;">
+ 		<div style="height: 430px;width: 20%;position: absolute;float: left;">
+ 			<br><br>
+ 			<font style="font-size: 30px;color: black;font-weight: bold;font-family: algerian;margin-left:20%;">Quick Links</font>
+ 			<br><br><br>
+	    	  <ul type="square" style="margin-left: 20%;line-height: 30px;">
+	    		<li>Events</li>
+	    		<li>Contacs</li>
+	    		<li>Mentors</li>
+	    		<li>Galleries</li>
+	    		<li>Write For Us</li>
+	    		<li>Terma And Conditions</li>
+	    		<li>Traning</li>
+	    		<li>Services</li>
+	    	  </ul>
+ 		</div>
+ 		<div style="height: 430px;width: 25%;position: absolute;left: 20%; float: left;">
+ 			<br><br><font style="font-size: 30px;color: black;font-weight: bold;font-family: algerian;margin-left:30%;">Contact Us</font>
+ 			<br><br><br>
+		    	<ul type="none" style="margin-left: 10%;line-height: 30px;">
+		    	<li><i class="fa fa-map-marker-alt" aria-hidden="true" style="font-size:20px;"></i>&nbsp;&nbsp;&nbsp;ABCD,Jyoti-Nagar,New-Delhi,India,110013<br></li>
+		    	
+		    	<li><i class="fa fa-map-marker-alt" aria-hidden="true" style="font-size:20px;"></i>&nbsp;&nbsp;&nbsp;XYZ,Gandhi-Nagar, Suraj,Gujrat,India,220013<br></li>
+		  
+		    	<li><i class="fa fa-envelope" aria-hidden="true" style="font-size:20px;"></i>&nbsp;&nbsp;&nbsp;tk123456@gmail.com</li>
+    			<li><i class="fa fa-mobile" aria-hidden="true" style="font-size:20px;"></i>&nbsp;&nbsp;&nbsp;9856320212</li>
+    			<li><i class="fa fa-phone-alt" aria-hidden="true" style="font-size:20px;"></i>&nbsp;&nbsp;&nbsp;011-130023</li><br>
+    			<li>&nbsp;&nbsp;&nbsp;<i class="fab fa-facebook-f" style='font-size:23px;'></i>&nbsp;&nbsp;&nbsp;<i class="fab fa-instagram" style='font-size:23px;'></i>&nbsp;&nbsp;&nbsp;<i class="fab fa-twitter" style='font-size:23px;'></i>&nbsp;&nbsp;&nbsp;<i class="fab fa-whatsapp-square" style='font-size:25px;'></i>&nbsp;&nbsp;&nbsp<i class="fab fa-snapchat" style='font-size:23px;'></i>
+    			</li>
+		    	</ul>
+ 		</div>
+ 		<div style="height: 430px;width: 23%; position: absolute;left: 45%;float: left;">
+ 			<br><br><font style="font-size: 30px;color: black;font-weight: bold;font-family: algerian;margin-left:20%;">Payments</font>
+ 			<br><br><br>
+ 			 	<ul type="none">
+ 			 		<li><p><i class="fa fa-lock" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;SECURE ONLINE PAYMENTS FOR EFFECTIVE TRANSACTIONS</p></li>
+ 			 		<li>USE LINKS FOR PAYMENTS</li><br>
+ 			 		<li>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-cc-mastercard" style="font-size:36px"></i>
+                        &nbsp;&nbsp;<i class="fab fa-cc-visa" style="font-size:36px"></i>
+                        &nbsp;&nbsp;<i class="fab fa-cc-paypal" style="font-size:36px"></i>
+                        &nbsp;&nbsp;<i class="fab fa-cc-amex" style="font-size:36px"></i><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fab fa-cc-stripe" style="font-size:36px"></i>
+                        &nbsp;&nbsp;<i class="fab fa-cc-discover" style="font-size:36px"></i>
+ 			 		</li>
+ 			 	</ul><br>
+
+
+ 		</div>
+ 		<div style="height: 430px;width: 32%;position: absolute;left: 68%;float: left;">
+ 			<br><br><font style="font-size: 30px;color: black;font-weight: bold;font-family: algerian;margin-left:20%;">OUR NEWSLETTER</font>
+ 			<br><br><br>
+ 				<ul type="none"><li><p style="text-align: left;">"It'll have everything our customers care about,<br> all in one place," they rationalize. "Our list will <br>be different -- people will actually look forward<br> to getting our newsletter," they argue. <br> "Since we're only sending it once a month,<br>  it'll be a breeze to put together," they say</p></li>
+ 				<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="tk" size="20"><input type="button" name="tkk" value="SUBSCRIBE" style="background-color: red;color: white;"></li>
+ 				</ul>
+ 		</div>
+ 	</div>
+    <div style="height: 300px;width:100%;position: relative; top: 2050px;"><br><br>
+    	<div style="margin-left: 200px;"><b>© 2020 Brain4ce Education Solutions Pvt. Ltd. All rights Reserved.Terms & Conditions Legal & Privacy</b>
+    		
+    	</div>
+    	<div style="width: 180px;height: 130px;position: relative;left: 900px;">
+    			<img src="F:\tanuj html ducat\project4_images\link1.png"><br><br>
+    			<img src="F:\tanuj html ducat\project4_images\link2.png">
+    		</div>
+    		<div style="width: 400px;height: 130px;float: left;position: relative;top: -60px;left: 100px; "><"PMP®","PMI®", "PMI-ACP®" and "PMBOK®" are registered marks of the Project Management Institute, Inc. MongoDB®, Mongo and the leaf logo are the registered trademarks of MongoDB, Inc.
+    		</div>
+    		<div style="width: 100%;height: 25px;position: relative;top: 80px;">
+    			<b><a href="#">Conditions of Use & Sale</a></b>&nbsp;&nbsp;&nbsp;&nbsp;
+    			<b><a href="#">Privacy Notice</a></b>&nbsp;&nbsp;&nbsp;&nbsp;
+    			<b><a href="#">Internet Based Adds</a></b>
+    			
+    		</div><p style="position: relative;top: 80px;left: 90px;">© 1996-2020, Amazon.com, Inc. or its affiliates</p>
+    </div>
+
+ 
+ 	
+</body>
+</html>
